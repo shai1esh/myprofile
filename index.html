@@ -6,75 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.png">
-    <title>Shailesh</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <title>Shailesh Shinde</title>
 </head>
 
-<body style="background-color: antiquewhite; border: black;border-radius: 2px; border: inset;">
-    <center>
-        <header>
-            <h1>Shailesh Shinde</h1>
-        </header>
-    </center>
-    <div>
-        <center>
-            <span>
-                <img src="images/profilePic.jpg" title="profilePic" style="height: 200px;width: 190px;">
-            </span>
-            <div style="width: 800px;">
-                <h3>About me</h3>
-                <span>I'm Backend developer, and being transitiong to full stack one. The crossover between design and
-                    programming has always been of interest to me, I've been lucky enough to work alongside some
-                    talented
-                    teams on a number of high profile websites. I have a wide range of skills that include back-end
-                    development using open source technologies (Java), front-end development (React, ReactJs, HTML5,
-                    CSS3,
-                    Javascript, Responsive), cloud technologies (AWS),database(Mysql, Postgres), CI/CD(Docker,
-                    kubernetes).
-                </span>
+<body>
+    <div id="menu">
+        <!-- Menu section -->
+        <div style="text-align: center;font-size: 20px;margin-top: 8%;">
+            <img src="images/favicon.png" style="height: 75%;width: 75%;border-radius: 5%;">
+        </div>
+
+        <div class="menuItems">
+            <div class="menuItem">
+                About me
             </div>
-        </center>
+            <div class="menuItem">
+                Work Experience
+            </div>
+            <div class="menuItem">
+                Technologies
+            </div>
+            <div class="menuItem">
+                Projects
+            </div>
+            <div class="menuItem">
+                Achievement
+            </div>
+        </div>
+
+        <!-- Social links section -->
+        <div id="socialLinks">
+            <a href="www.linkedin.com">
+                <img src="images/linkedin_icon.png" alt="linkedin" class="socialLinkItem"/>
+            </a>
+            <a href="www.stackoverflow.com">
+                <img src="images/stackoverflow_icon.png" alt="stackoverflow" class="socialLinkItem"/>
+            </a>
+            <a href="www.github.com">
+                <img src="images/github_icon.png" alt="github" class="socialLinkItem"/>
+            </a>
+            <a href="www.github.com">
+                <img src="images/github_icon.png" alt="github" class="socialLinkItem"/>
+            </a>
+        </div>
     </div>
-    <hr />
-    <div>
-        <center>
-            <h3> Skills </h3>
-            <span>
-                <img src="" alt="">Java</img>
-                <img src="" alt="">Spring Boot</img>
-                <img src="" alt="">HTML</img>
-                <img src="" alt="">Junit</img>
-                <img src="" alt="">AWS</img>
-                <img src="" alt="">MySql</img>
-            </span>
-        </center>
+
+    <div class="mainContent">
+    <img class="profilePic" src="images/profilePic.jpg" title="profilePic" />
+
+    <div id="nameHeader">
+        <span class="subtitle">
+            Hello I'm, 
+        </span> <br/>
+        <span class="title">
+            <b>Shailesh Shinde</b>
+        </span>
     </div>
-    <hr />
-    <div>
-        <center>
-            <details>
-                <summary>Hobbies</summary>
-                <p>listening music or books </p>
-                <p>Watching cricket</p>
-            </details>
-        </center>
+
+    <div id="detailsDiv">
+        <div class="description">
+            <p> I'm Backend developer, and being transitiong to full stack one.
+                The crossover between design and
+                programming has always been of interest to me, I've been lucky enough to work alongside some
+                talented teams on a number of projects in financial domain.
+            </p>
+            <p>I have a wide range of skills that
+                include back-end development using open source technologies (Java), front-end development
+                (React, ReactJs, HTML5, CSS3, Javascript, Responsive), cloud technologies (AWS),database(Mysql,
+                Postgres), CI/CD(Docker,kubernetes).
+            </p>
+        </div>        
     </div>
-    <hr />
-    <div>
-        <center>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30258.488208466257!2d73.76629122636547!3d18.56001142653598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2becff05dd3cb%3A0xa1911297fb7fab7d!2sBaner%2C%20Pune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1659804614711!5m2!1sen!2sin"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </center>
+    
     </div>
-    <hr />
-    <footer>
-        <center>
-            <span>&copy;Shailesh-Full Stack developer</span><br>
-            <span>Social Links</span>
-        </center>
-    </footer>
-    <hr />
+    <div id="footer">
+            &copy; Shailesh Shinde - Full Stack developer
+    </div>
 </body>
 
 </html>

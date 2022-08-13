@@ -1,0 +1,97 @@
+body{
+    background-image: radial-gradient(rgb(182, 105, 226),rgb(71, 131, 180))
+}
+
+#menu {
+    width: 14%;
+    height: 100%;
+    margin: 1%;
+    float: left;
+}
+
+.menuItems{
+    margin-top: 52%;
+    margin-bottom: 30%;
+    color: rgba(255, 255, 255, 0.795);
+}
+.menuItem{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 8%;
+    margin-left: 12%
+}
+
+#socialLinks > a {
+    text-decoration: none;
+}
+
+.socialLinkItem{
+    text-decoration: none;
+    height: 30px;
+    width: 20%;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 12%
+}
+
+.mainContent{
+    display: inline-block;
+    width: 84%;
+    align-content: center;
+}
+
+#nameHeader{
+    margin-top: 1%;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+
+#nameHeader > .subtitle{
+    margin-top: 1%;
+    font-size: 18px;
+}
+
+#nameHeader > .title > b{
+    margin-top: 2%;
+    font-size: 25px;
+}
+
+#detailsDiv{
+    width: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.description{
+    width: 90%;
+    font-size: 20px;
+    margin: 1%;
+    float: left;
+    font-size: 18px;
+}
+
+.description > p{
+    text-indent: 9%;
+    margin-left: 3%
+}
+
+.profilePic{
+    margin-top: 2%;
+    width: 20%;
+    height: 220px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+#footer{
+    width: 84%;    
+    margin-left: 14%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: white;
+    border-top-style: solid;
+    border-bottom: white;
+    border-bottom-style: solid
+}
